@@ -1,0 +1,86 @@
+
+        /* Agrega estilos según tus necesidades */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ed1292;
+            color: #dcd807;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #9b297c;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #e8de13;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+         /* Estilos para centrar el contenido */
+    .producto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 20px; /* Ajusta el margen según sea necesario */
+    }
+    .titulo_producto
+    { 
+        color: #050404;
+        text-transform:uppercase ;
+
+    }
+
+    .titulo_precio
+    { 
+        color: #050404;
+        text-transform:uppercase ;
+        margin-top: -44px;
+        margin-left: 175px;
+        
+
+    }
+
+    .titulo_descripcion
+    { 
+        color: #050404;
+        text-transform:uppercase ;
+        
+        
+        
+
+    }
+
+
+    .producto img {
+        max-width: 100%; /* Ajusta el tamaño de la imagen según sea necesario */
+    }
+ /* Estilos para el nombre del producto dentro de h2 */
+ .producto h2 p{
+    color: #111010; /* Color del texto */
+    font-size: 1em; /* Tamaño de la fuente */
+    /* Agrega otros estilos según tus preferencias */
+}
+
+/* Estilos para el botón Agregar al Carrito */
+.agregar-carrito-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin-top: 10px; /* Espacio superior al botón */
+    cursor: pointer;
+    /* Agrega otros estilos según tus preferencias */
+}
